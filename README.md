@@ -1,5 +1,5 @@
 # icinga2-cachet
-A Icinga2 component status notification handler to push Icinga2 notifications to Cachet API
+An Icinga2 component status notification handler to push Icinga2 notifications to Cachet API
 
 ## Prerequisites
  - Working Cachet installation
@@ -16,7 +16,7 @@ A Icinga2 component status notification handler to push Icinga2 notifications to
 
 ## Configuration
 
- - Ma:wqke a icinga2 command:
+ - Make a icinga2 command:
 ```
 	  object NotificationCommand "cachet-service-notification" {
 	  import "plugin-notification-command"
